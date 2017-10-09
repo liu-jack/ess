@@ -1,7 +1,8 @@
 <template>
     <div class="container-fluid">
             <Navbar :url_window="url_dashboard"></Navbar>
-            <h1>Crear Usuarios</h1>
+            <h1>Crear Noticia</h1>
+         
             
     </div>
 </template>
@@ -12,12 +13,16 @@ import Navbar from '../../components/navbar/Navbar.vue'
       name: 'DashoardIndex',
         data() {
             return {
-                
+              
             }
         },
         props:{
 
             url_dashboard:{} ,
+
+        },
+        computed:{
+            
 
         },
         watch:{

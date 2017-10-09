@@ -16,8 +16,16 @@
 
 <script>
     export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
+        props:{
+          url_dashboard:{},
+      },
+      watch: {
+       // url_dashboard question changes, this function will run
+       info_new: function (new_data) {
+        // this.answer = 'Waiting for you to stop typing...'
+         //this.getAnswer()
+         console.log(new_data);
+       }
+     },
     }
 </script>

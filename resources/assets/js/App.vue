@@ -10,6 +10,7 @@
             <ul class="nav navbar-nav mr-auto">
                <router-link :to="{name : 'home'}" tag="li" class="nav-item" ><a class="nav-link" >Home</a></router-link></li>
                 <router-link :to="{name : 'profile'}"  tag="li" class="nav-item" ><a class="nav-link" >Perfil</a></router-link>
+                <router-link :to="{name : 'dashboard'}"  tag="li" class="nav-item" ><a class="nav-link" >Dashobard</a></router-link>
             </ul>
 
             </div>

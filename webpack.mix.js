@@ -14,8 +14,9 @@ let mix = require('laravel-mix');
 
 mix.autoload({
     jquery: ['$', 'window.jQuery', 'jQuery'],
-   tether: ['window.Tether', 'Tether'],
-   'popper.js': ['Popper', 'window.Popper']
+    'popper.js/dist/umd/popper.js': ['Popper']
+   
+   
 
 }).js([
        'node_modules/jquery/dist/jquery.min.js',

@@ -7,12 +7,12 @@ window._ = require('lodash');
  * code may be modified to fit the specific needs of your application.
  */
 
-import Popper from 'popper.js'; //instead of import Popper from 'popper.js/dist/umd/popper.js'; for a small file size
-
+//import Popper from 'popper.js/dist/umd/popper.js'; //'popper.js'; //instead of import Popper from 'popper.js/dist/umd/popper.js'; for a small file size
+import Popper from 'popper.js/dist/umd/popper.js';
 
 try {
     window.$ = window.jQuery = require('jquery');
-    window.Tether = require('tether');    
+
     window.Popper = Popper;
     require('bootstrap');
     
